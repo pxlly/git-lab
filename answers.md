@@ -67,3 +67,44 @@ Untracked files:
 	answers.md
 
 aleavy@odd19:~/git-lab$ 
+	new file:   README.md
+	new file:   answers.md
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   answers.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+aleavy@odd19:~/git-lab$ 
+commit 45ba98ef834e5edf0c9db65a6261aec2983947a9 (HEAD -> master)
+Author: Federico Olivares <fo170521@ohio.edu>
+Date:   Wed Jan 25 18:54:07 2023 -0500
+
+    Initial commit
+No change
+To https://github.com/Fico207/git-lab.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/Fico207/git-lab.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+aleavy@odd19:~/git-lab$ 
+aleavy@odd19:~/git-lab$ git pull
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/Fico207/git-lab
+   45ba98e..11caf70  main       -> origin/main
+Updating 45ba98e..11caf70
+Fast-forward
+ README.md | 1 +
+ 1 file changed, 1 insertion(+)
+aleavy@odd19:~/git-lab$ 
+.  ..  .git  .gitignore  README.md
+aleavy@odd19:~/2400/git-lab-2$ 
